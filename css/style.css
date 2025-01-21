@@ -1,0 +1,322 @@
+
+/* All Common CSS Start */
+
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ol, ul{
+    list-style-type: none;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin:0;
+    padding:0;
+    line-height: 0.8px;
+}
+.container{
+    width:960px;
+    margin:0 auto;
+}
+
+/* All Common CSS End */
+
+
+/* Headar Part Css Start */
+
+#headerPart{
+    line-height: 60px;
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+    z-index:5;
+}
+
+.logoMenueButtonIcon{
+    display:flex;
+    justify-content: space-between;
+    padding-top:10px;
+}
+
+.menue ul li{
+    display:inline-block;
+    padding:0px 12px;
+}
+.menue ul li a{
+    font-family: "Source Sans 3", serif;
+    font-weight:400;
+    font-size:14px;
+    color:#fff;
+}
+
+.menue ul li a:hover{
+    color:#E4B855;
+}
+
+.buttonIcon{
+    display:flex;
+    justify-content: space-between;
+}
+
+.menueBtn button{
+    padding: 10px 45px;
+    background:#E4B855;
+    border-radius: 15px;
+    margin-right:30px;
+    border:none;
+    color:white;
+}
+
+.menueBtn button:hover{
+    background:#fff;
+    color:rgb(153, 153, 153);
+}
+
+.menueIcon{
+    font-size:18px;
+    color:#fff;
+}
+
+
+/* Headar Part Css End */
+/* Banner Part Css Start */
+
+#bannerPart{
+    background:url(../images/slider-01.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    position:relative;
+}
+
+.overlay{
+    position:absolute;
+    content:'';
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    background:rgba(0, 0, 0, 0.6);
+}
+
+.bannerText{
+    text-align: center;
+    padding:120px 0px;
+    color:#fff;
+    position:relative;
+    z-index:2;
+}
+
+.bannerText h2{
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size:54px;
+    line-height: 70px;
+}
+.bannerText h2:hover{
+    text-decoration: underline;
+}
+
+.bannerText p{
+    font-family: "Source Sans 3", serif;
+    font-size: 19px;
+    line-height: 24px;
+    padding:53px 170px;
+}
+
+/* Banner Part Css End */
+
+/* About Part Css Start */
+#aboutPart{
+    display:flex;
+}
+
+.aboutImage img{
+    width:620px;
+    height:100%;
+}
+
+.aboutText {
+    padding: 70px 32px;
+}
+
+.aboutText h3{
+    font-family: "Playfair Display", serif;
+    font-size:29px;
+    line-height: 32px;
+    font-weight: 400;
+    color:#000000;
+    margin-bottom:32px;
+}
+.aboutText h3:hover{
+    text-decoration: underline;
+}
+
+.aboutText h5{
+    font-family: "Source Sans 3", serif;
+    font-size:19px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #606060;
+    margin-bottom:32px;
+}
+.aboutText h5:hover{
+    text-decoration: underline;
+}
+
+.aboutText p{
+    font-family: "Source Sans 3", serif;
+    font-size:16px;
+    line-height: 23px;
+    color: #606060;
+}
+.aboutText p:hover{
+    text-decoration: underline;
+}
+/* About Part Css End */
+
+/* Events Part Css Start */
+
+#eventsPart{
+    background: url(../images/bg-img.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding:100px 0px;
+    position:relative;
+}
+.eventOverlay{
+    position:absolute;
+    content:'';
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    background:rgba(0, 0, 0, 0.5); 
+}
+
+.eventTop{
+    text-align: center;
+    color:#fff;
+    position:relative;
+    z-index:8;
+}
+
+.eventTop h2{
+    font-family: "Playfair Display", serif;
+    font-size:29px;
+    line-height: 37px;
+    font-weight: 400;
+    color:#ffff;
+    margin-bottom:35px;
+    padding:0px 200px;
+}
+
+.eventTop h2:hover{
+    text-decoration: underline;
+}
+
+.eventTop p{
+    font-family: "Source Sans 3", serif;
+    font-size:19px;
+    line-height: 25px;
+    font-weight: 400;
+    color:#ABABAB;
+    padding:0px 200px;
+    margin-bottom:75px;
+}
+
+.eventTop p:hover{
+    text-decoration: underline;
+}
+
+
+.eventBottom ul li {
+    text-align: center;
+    display: inline-block;
+    width: 143px;
+    height: 165px;
+    background: #ffff;
+    margin-right: 16px;
+    position: relative;
+    z-index: 10;
+    transition:all 0.4s ease;
+}
+
+
+.eventBottom ul li:hover{
+    background:#E4B855;
+}
+
+.eventBottom ul li:last-child{
+    margin-right:0px;
+}
+
+.eventBottom ul li a{
+    font-family: "Source Sans 3", serif;
+    font-size:18px;
+    line-height:41px;
+    font-weight: 400;
+    color:#000000;
+    transition:all 0.5s ease;
+}
+
+.eventBottom ul li a:hover{
+    color:#fff;
+}
+
+.eventBottom ul li a i {
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    margin: 30px 0px 20px 0px;
+    color: #919191;
+    transition:all 0.5s ease;
+}
+
+.eventBottom ul li a i:hover{
+    color:#fff;
+}
+/* Events Part Css End */
+
+/* Who We Are part Start */
+
+#whoAreWePart{
+    padding:120px 0px;
+}
+.whoAreWeTop{
+    text-align:center;
+    position:relative;
+}
+
+.whoAreWeTop h3{
+    font-family: "Playfair Display", serif;
+    font-size:29px;
+    line-height:33px;
+    font-weight: 600;
+    color:#000000;
+    margin-bottom:55px;
+}
+
+.whoAreWeTop img {
+    width: 190px;
+    position: absolute;
+    top: 33px;
+    left: 40%;
+}
+.whoAreWeTop p{
+    font-family: "Source Sans 3", serif;
+    font-size:20px;
+    line-height:25px;
+    font-weight: 400;
+    color:#606060;
+    margin-bottom:86px;
+    padding:0px 150px;
+}
+/* Who We Are part End */
+
+
